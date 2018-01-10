@@ -4,9 +4,9 @@ Title: About
 
 ### About Me
 
-I am an engineer and programmer in Cache and CDN business. I have always lived in Beijing of China. Since 2001, I have began to learn computer languages such as C++,C,Java,Python, I am family with some open source projects such as Squid, Nsd, Gdnsd, Bind, Netmap, Pcap etc. But I am not proficient in them, this is my fatal fault.
+I am an engineer and programmer in Cache and CDN business. I have always lived in Beijing of China. Since 2001, I have began to learn computer languages such as C++, C, Java, Python, I am family with some open source projects such as Squid, Nsd, Gdnsd, Bind, Netmap, Pcap etc. But I am not proficient in them, this is my fatal fault.
 
-I am indoorsy man. I like jogging. currently I have insisted on running during there months.
+I am indoorsy man. I like jogging. currently I have insisted on running during twelve months.
 
 ### About this website
 

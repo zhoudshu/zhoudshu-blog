@@ -39,10 +39,17 @@ Author: zhoudshu
 ### Step 5: Python client for quering impala
  CDH suggestes using the [__impyla__](https://github.com/cloudera/impyla impyla) to visit the impala databases. First We must install the following yum package:
 ```bash
+#yum install cyrus-sasl-plain cyrus-sasl cyrus-sasl-lib cyrus-sasl-devel cyrus-sasl-gssapi
 #yum install gcc-c++ python-devel.x86_64 cyrus-sasl-devel.x86_64
 #pip install thrift_sasl 
 #pip install sasl
 
+```
+if you use the Python 2.6.6 version, you maybe find this error "AttributeError: 'TSaslClientTransport' object has no attribute "
+the solution is used the low version thrift==0.9.3
+```bash
+pip uninstall thrift==0.10.0
+pip install thrift==0.9.3
 ```
 
 Python client demo source code file [__TestImpalaByLdap.py__](https://github.com/zhoudshu/testcode)
